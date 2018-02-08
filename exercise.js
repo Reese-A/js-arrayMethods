@@ -51,7 +51,8 @@ console.log(waitList);
 
 /*5. Apparently, you didn't do a good job with crowd control in the previous exercise. Kanye just cut in front of everyone!. Add Kanye to the waitList array above. Console.log waitList*/
 
-
+waitList.unshift('Kanye');
+console.log(waitList);
 
 /*The array.splice() adds and/or removes elements from an array.
 array.splice(index, how many items to be removed)*/
@@ -59,8 +60,8 @@ array.splice(index, how many items to be removed)*/
 /*6. As head of McDonald's New Product Division, your job is to test and approve all new menu items. In the testMenu array below, all the items are approved except for "McLinguine" and "McChar-Siu Bau". Remove these items from the list and console.log the updated testMenu.*/
 
 var testMenu = ["McPizza Burger", "McFly Burger", "McLinguine", "McChar-Siu Bau", "McChop-Chae", "McPancit"];
-
-
+testMenu.splice(2, 2);
+console.log(testMenu);
 
 /*=============================================================*/
 
