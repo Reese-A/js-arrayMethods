@@ -24,7 +24,8 @@ console.log(hof);
 /*2. You've been tasked to do this week's grocery shopping. As you arrive at Times Supermarket, Kanye pings you to get a bottle of Hendricks gin. Add this to the existing shoppingList and console.log it.*/
 
 var shoppingList = ["cool ranch doritos", "kings hawaiian sweet bread", "peanut butter oreos", "fruit loops cereal"];
-
+shoppingList.push("Hendricks gin");
+console.log(shoppingList);
 
 
 
